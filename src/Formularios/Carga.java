@@ -6,7 +6,6 @@
 package Formularios;
 
 import Clases.cargar_barra;
-import com.sun.awt.AWTUtilities;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -25,7 +24,7 @@ public class Carga extends javax.swing.JFrame {
     public Carga() {
         initComponents();
                setOpacity((float)0.9);
-        AWTUtilities.setWindowOpaque(this, false);
+        this.setBackground(new Color(0,0,0,0));
         setLocationRelativeTo(null);
          try {
         Image icon = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Imagenes/Icono.png"));

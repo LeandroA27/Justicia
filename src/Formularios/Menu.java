@@ -7,7 +7,7 @@ package Formularios;
 
 import Clases.Agenda;
 import Fuentes.Fuentes;
-import com.sun.awt.AWTUtilities;
+import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.sql.Connection;
@@ -36,7 +36,7 @@ Fuentes tipofuente;
     
     public Menu() {
         initComponents();
-        AWTUtilities.setWindowOpaque(this, false);
+        this.setBackground(new Color(0,0,0,0));
         this.setLocationRelativeTo(null);
         
         try {
@@ -289,7 +289,7 @@ Fuentes tipofuente;
         btn_minimizar.setToolTipText("Minimizar");
         btn_minimizar.setBorder(null);
         btn_minimizar.setContentAreaFilled(false);
-        btn_minimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_minimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_minimizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_minimizarActionPerformed(evt);
@@ -299,7 +299,7 @@ Fuentes tipofuente;
         btn_cerrar.setToolTipText("Cerrar");
         btn_cerrar.setBorder(null);
         btn_cerrar.setContentAreaFilled(false);
-        btn_cerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_cerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_cerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_cerrarActionPerformed(evt);
@@ -316,7 +316,7 @@ Fuentes tipofuente;
         btn_minimizar1.setToolTipText("Minimizar");
         btn_minimizar1.setBorder(null);
         btn_minimizar1.setContentAreaFilled(false);
-        btn_minimizar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_minimizar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_minimizar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_minimizar1ActionPerformed(evt);
@@ -327,7 +327,7 @@ Fuentes tipofuente;
         btn_cerrar1.setToolTipText("Cerrar");
         btn_cerrar1.setBorder(null);
         btn_cerrar1.setContentAreaFilled(false);
-        btn_cerrar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_cerrar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_cerrar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_cerrar1ActionPerformed(evt);
@@ -369,12 +369,12 @@ Fuentes tipofuente;
         dia_1.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_1);
-        dia_1.setBounds(0, 0, 97, 17);
+        dia_1.setBounds(0, 0, 97, 19);
 
         dia1.setBorder(null);
         dia1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia1.setOpaque(false);
 
         ldia1.setBackground(new java.awt.Color(28, 18, 0));
@@ -408,12 +408,12 @@ Fuentes tipofuente;
         dia_2.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_2);
-        dia_2.setBounds(100, 0, 97, 17);
+        dia_2.setBounds(100, 0, 97, 19);
 
         dia2.setBorder(null);
         dia2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia2.setOpaque(false);
 
         ldia2.setBackground(new java.awt.Color(28, 18, 0));
@@ -446,12 +446,12 @@ Fuentes tipofuente;
         dia_3.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_3);
-        dia_3.setBounds(200, 0, 97, 17);
+        dia_3.setBounds(200, 0, 97, 19);
 
         dia3.setBorder(null);
         dia3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia3.setOpaque(false);
 
         ldia3.setBackground(new java.awt.Color(28, 18, 0));
@@ -484,12 +484,12 @@ Fuentes tipofuente;
         dia_4.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_4);
-        dia_4.setBounds(300, 0, 97, 17);
+        dia_4.setBounds(300, 0, 97, 19);
 
         dia4.setBorder(null);
         dia4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia4.setOpaque(false);
 
         ldia4.setBackground(new java.awt.Color(28, 18, 0));
@@ -522,12 +522,12 @@ Fuentes tipofuente;
         dia_5.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_5);
-        dia_5.setBounds(400, 0, 97, 17);
+        dia_5.setBounds(400, 0, 97, 19);
 
         dia5.setBorder(null);
         dia5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia5.setOpaque(false);
 
         ldia5.setBackground(new java.awt.Color(28, 18, 0));
@@ -560,12 +560,12 @@ Fuentes tipofuente;
         dia_6.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_6);
-        dia_6.setBounds(500, 0, 97, 17);
+        dia_6.setBounds(500, 0, 97, 19);
 
         dia6.setBorder(null);
         dia6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia6.setOpaque(false);
 
         ldia6.setBackground(new java.awt.Color(28, 18, 0));
@@ -598,12 +598,12 @@ Fuentes tipofuente;
         dia_7.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_7);
-        dia_7.setBounds(600, 0, 97, 17);
+        dia_7.setBounds(600, 0, 97, 19);
 
         dia7.setBorder(null);
         dia7.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia7.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia7.setOpaque(false);
 
         ldia7.setBackground(new java.awt.Color(28, 18, 0));
@@ -636,12 +636,12 @@ Fuentes tipofuente;
         dia_8.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_8);
-        dia_8.setBounds(0, 79, 97, 17);
+        dia_8.setBounds(0, 79, 97, 19);
 
         dia8.setBorder(null);
         dia8.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia8.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia8.setOpaque(false);
 
         ldia8.setBackground(new java.awt.Color(28, 18, 0));
@@ -674,12 +674,12 @@ Fuentes tipofuente;
         dia_9.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_9);
-        dia_9.setBounds(100, 79, 97, 17);
+        dia_9.setBounds(100, 79, 97, 19);
 
         dia9.setBorder(null);
         dia9.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia9.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia9.setOpaque(false);
 
         ldia9.setBackground(new java.awt.Color(28, 18, 0));
@@ -712,7 +712,7 @@ Fuentes tipofuente;
         dia_10.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_10);
-        dia_10.setBounds(200, 79, 97, 17);
+        dia_10.setBounds(200, 79, 97, 19);
 
         dia_11.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_11.setForeground(new java.awt.Color(255, 255, 255));
@@ -723,7 +723,7 @@ Fuentes tipofuente;
         dia_11.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_11.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_11);
-        dia_11.setBounds(300, 79, 97, 17);
+        dia_11.setBounds(300, 79, 97, 19);
 
         dia_12.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_12.setForeground(new java.awt.Color(255, 255, 255));
@@ -734,7 +734,7 @@ Fuentes tipofuente;
         dia_12.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_12.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_12);
-        dia_12.setBounds(400, 79, 97, 17);
+        dia_12.setBounds(400, 79, 97, 19);
 
         dia_13.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_13.setForeground(new java.awt.Color(255, 255, 255));
@@ -745,7 +745,7 @@ Fuentes tipofuente;
         dia_13.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_13);
-        dia_13.setBounds(500, 79, 97, 17);
+        dia_13.setBounds(500, 79, 97, 19);
 
         dia_14.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_14.setForeground(new java.awt.Color(255, 255, 255));
@@ -756,7 +756,7 @@ Fuentes tipofuente;
         dia_14.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_14.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_14);
-        dia_14.setBounds(600, 79, 97, 17);
+        dia_14.setBounds(600, 79, 97, 19);
 
         dia_15.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_15.setForeground(new java.awt.Color(255, 255, 255));
@@ -765,7 +765,7 @@ Fuentes tipofuente;
         dia_15.setAlignmentY(0.0F);
         dia_15.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(dia_15);
-        dia_15.setBounds(0, 155, 97, 17);
+        dia_15.setBounds(0, 155, 97, 19);
 
         dia_22.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_22.setForeground(new java.awt.Color(255, 255, 255));
@@ -776,7 +776,7 @@ Fuentes tipofuente;
         dia_22.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_22.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_22);
-        dia_22.setBounds(0, 235, 97, 17);
+        dia_22.setBounds(0, 235, 97, 19);
 
         dia_30.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_30.setForeground(new java.awt.Color(255, 255, 255));
@@ -785,7 +785,7 @@ Fuentes tipofuente;
         dia_30.setAlignmentY(0.0F);
         dia_30.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(dia_30);
-        dia_30.setBounds(100, 311, 97, 17);
+        dia_30.setBounds(100, 311, 97, 19);
 
         dia_16.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_16.setForeground(new java.awt.Color(255, 255, 255));
@@ -796,7 +796,7 @@ Fuentes tipofuente;
         dia_16.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_16.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_16);
-        dia_16.setBounds(100, 155, 97, 17);
+        dia_16.setBounds(100, 155, 97, 19);
 
         dia_17.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_17.setForeground(new java.awt.Color(255, 255, 255));
@@ -807,7 +807,7 @@ Fuentes tipofuente;
         dia_17.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_17.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_17);
-        dia_17.setBounds(200, 155, 97, 17);
+        dia_17.setBounds(200, 155, 97, 19);
 
         dia_18.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_18.setForeground(new java.awt.Color(255, 255, 255));
@@ -818,7 +818,7 @@ Fuentes tipofuente;
         dia_18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_18.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_18);
-        dia_18.setBounds(300, 155, 97, 17);
+        dia_18.setBounds(300, 155, 97, 19);
 
         dia_19.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_19.setForeground(new java.awt.Color(255, 255, 255));
@@ -829,7 +829,7 @@ Fuentes tipofuente;
         dia_19.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_19.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_19);
-        dia_19.setBounds(400, 155, 97, 17);
+        dia_19.setBounds(400, 155, 97, 19);
 
         dia_20.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_20.setForeground(new java.awt.Color(255, 255, 255));
@@ -840,7 +840,7 @@ Fuentes tipofuente;
         dia_20.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_20.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_20);
-        dia_20.setBounds(500, 155, 97, 17);
+        dia_20.setBounds(500, 155, 97, 19);
 
         dia_21.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_21.setForeground(new java.awt.Color(255, 255, 255));
@@ -851,7 +851,7 @@ Fuentes tipofuente;
         dia_21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_21.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_21);
-        dia_21.setBounds(600, 155, 97, 17);
+        dia_21.setBounds(600, 155, 97, 19);
 
         dia_23.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_23.setForeground(new java.awt.Color(255, 255, 255));
@@ -862,7 +862,7 @@ Fuentes tipofuente;
         dia_23.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_23.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_23);
-        dia_23.setBounds(100, 235, 97, 17);
+        dia_23.setBounds(100, 235, 97, 19);
 
         dia_24.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_24.setForeground(new java.awt.Color(255, 255, 255));
@@ -873,7 +873,7 @@ Fuentes tipofuente;
         dia_24.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_24.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_24);
-        dia_24.setBounds(200, 235, 97, 17);
+        dia_24.setBounds(200, 235, 97, 19);
 
         dia_25.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_25.setForeground(new java.awt.Color(255, 255, 255));
@@ -884,7 +884,7 @@ Fuentes tipofuente;
         dia_25.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_25.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_25);
-        dia_25.setBounds(300, 235, 97, 17);
+        dia_25.setBounds(300, 235, 97, 19);
 
         dia_27.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_27.setForeground(new java.awt.Color(255, 255, 255));
@@ -895,7 +895,7 @@ Fuentes tipofuente;
         dia_27.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_27.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_27);
-        dia_27.setBounds(500, 235, 97, 17);
+        dia_27.setBounds(500, 235, 97, 19);
 
         dia_28.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_28.setForeground(new java.awt.Color(255, 255, 255));
@@ -906,7 +906,7 @@ Fuentes tipofuente;
         dia_28.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_28.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_28);
-        dia_28.setBounds(600, 235, 97, 17);
+        dia_28.setBounds(600, 235, 97, 19);
 
         dia_29.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_29.setForeground(new java.awt.Color(255, 255, 255));
@@ -917,12 +917,12 @@ Fuentes tipofuente;
         dia_29.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_29.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_29);
-        dia_29.setBounds(0, 311, 97, 17);
+        dia_29.setBounds(0, 311, 97, 19);
 
         dia29.setBorder(null);
         dia29.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia29.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia29.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia29.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia29.setOpaque(false);
 
         ldia29.setBackground(new java.awt.Color(28, 18, 0));
@@ -951,7 +951,7 @@ Fuentes tipofuente;
         dia_26.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_26.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_26);
-        dia_26.setBounds(400, 235, 97, 17);
+        dia_26.setBounds(400, 235, 97, 19);
 
         dia_31.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 14)); // NOI18N
         dia_31.setForeground(new java.awt.Color(255, 255, 255));
@@ -962,7 +962,7 @@ Fuentes tipofuente;
         dia_31.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         dia_31.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jPanel1.add(dia_31);
-        dia_31.setBounds(200, 311, 97, 17);
+        dia_31.setBounds(200, 311, 97, 19);
 
         jLabel10.setBackground(new java.awt.Color(0, 14, 53));
         jPanel1.add(jLabel10);
@@ -985,7 +985,7 @@ Fuentes tipofuente;
         jLabel14.setBounds(0, 3, 98, 63);
 
         jLabel15.setBackground(new java.awt.Color(0, 14, 53));
-        jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.add(jLabel15);
         jLabel15.setBounds(0, 3, 98, 63);
 
@@ -1056,12 +1056,12 @@ Fuentes tipofuente;
         dia10.setBorder(null);
         dia10.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia10.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia10.setOpaque(false);
 
         ldia10.setBackground(new java.awt.Color(28, 18, 0));
         ldia10.setForeground(new java.awt.Color(253, 195, 45));
-        ldia10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ldia10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         ldia10.setDragEnabled(true);
         ldia10.setFocusable(false);
         ldia10.setSelectionBackground(new java.awt.Color(4, 47, 36));
@@ -1080,7 +1080,7 @@ Fuentes tipofuente;
         dia11.setBorder(null);
         dia11.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia11.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia11.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia11.setOpaque(false);
 
         ldia11.setBackground(new java.awt.Color(28, 18, 0));
@@ -1103,7 +1103,7 @@ Fuentes tipofuente;
         dia12.setBorder(null);
         dia12.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia12.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia12.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia12.setOpaque(false);
 
         ldia12.setBackground(new java.awt.Color(28, 18, 0));
@@ -1126,7 +1126,7 @@ Fuentes tipofuente;
         dia13.setBorder(null);
         dia13.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia13.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia13.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia13.setOpaque(false);
 
         ldia13.setBackground(new java.awt.Color(28, 18, 0));
@@ -1149,7 +1149,7 @@ Fuentes tipofuente;
         dia14.setBorder(null);
         dia14.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia14.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia14.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia14.setOpaque(false);
 
         ldia14.setBackground(new java.awt.Color(28, 18, 0));
@@ -1172,7 +1172,7 @@ Fuentes tipofuente;
         dia15.setBorder(null);
         dia15.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia15.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia15.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia15.setOpaque(false);
 
         ldia15.setBackground(new java.awt.Color(28, 18, 0));
@@ -1196,7 +1196,7 @@ Fuentes tipofuente;
         dia16.setBorder(null);
         dia16.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia16.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia16.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia16.setOpaque(false);
 
         ldia16.setBackground(new java.awt.Color(28, 18, 0));
@@ -1219,7 +1219,7 @@ Fuentes tipofuente;
         dia17.setBorder(null);
         dia17.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia17.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia17.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia17.setOpaque(false);
 
         ldia17.setBackground(new java.awt.Color(28, 18, 0));
@@ -1242,7 +1242,7 @@ Fuentes tipofuente;
         dia18.setBorder(null);
         dia18.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia18.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia18.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia18.setOpaque(false);
 
         ldia18.setBackground(new java.awt.Color(28, 18, 0));
@@ -1265,7 +1265,7 @@ Fuentes tipofuente;
         dia19.setBorder(null);
         dia19.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia19.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia19.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia19.setOpaque(false);
 
         ldia19.setBackground(new java.awt.Color(28, 18, 0));
@@ -1288,7 +1288,7 @@ Fuentes tipofuente;
         dia20.setBorder(null);
         dia20.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia20.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia20.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia20.setOpaque(false);
 
         ldia20.setBackground(new java.awt.Color(28, 18, 0));
@@ -1311,7 +1311,7 @@ Fuentes tipofuente;
         dia21.setBorder(null);
         dia21.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia21.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia21.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia21.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia21.setOpaque(false);
 
         ldia21.setBackground(new java.awt.Color(28, 18, 0));
@@ -1334,7 +1334,7 @@ Fuentes tipofuente;
         dia22.setBorder(null);
         dia22.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia22.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia22.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia22.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia22.setOpaque(false);
 
         ldia22.setBackground(new java.awt.Color(28, 18, 0));
@@ -1357,7 +1357,7 @@ Fuentes tipofuente;
         dia23.setBorder(null);
         dia23.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia23.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia23.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia23.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia23.setOpaque(false);
 
         ldia23.setBackground(new java.awt.Color(28, 18, 0));
@@ -1380,7 +1380,7 @@ Fuentes tipofuente;
         dia24.setBorder(null);
         dia24.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia24.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia24.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia24.setOpaque(false);
 
         ldia24.setBackground(new java.awt.Color(28, 18, 0));
@@ -1403,7 +1403,7 @@ Fuentes tipofuente;
         dia25.setBorder(null);
         dia25.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia25.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia25.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia25.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia25.setOpaque(false);
 
         ldia25.setBackground(new java.awt.Color(28, 18, 0));
@@ -1426,7 +1426,7 @@ Fuentes tipofuente;
         dia26.setBorder(null);
         dia26.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia26.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia26.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia26.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia26.setOpaque(false);
 
         ldia26.setBackground(new java.awt.Color(28, 18, 0));
@@ -1449,7 +1449,7 @@ Fuentes tipofuente;
         dia27.setBorder(null);
         dia27.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia27.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia27.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia27.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia27.setOpaque(false);
 
         ldia27.setBackground(new java.awt.Color(28, 18, 0));
@@ -1472,7 +1472,7 @@ Fuentes tipofuente;
         dia28.setBorder(null);
         dia28.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia28.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia28.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia28.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia28.setOpaque(false);
 
         ldia28.setBackground(new java.awt.Color(28, 18, 0));
@@ -1495,7 +1495,7 @@ Fuentes tipofuente;
         dia30.setBorder(null);
         dia30.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia30.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia30.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia30.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia30.setOpaque(false);
 
         ldia30.setBackground(new java.awt.Color(28, 18, 0));
@@ -1518,7 +1518,7 @@ Fuentes tipofuente;
         dia31.setBorder(null);
         dia31.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         dia31.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
-        dia31.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        dia31.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         dia31.setOpaque(false);
 
         ldia31.setBackground(new java.awt.Color(28, 18, 0));
@@ -1589,13 +1589,13 @@ Fuentes tipofuente;
         getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(88, 242, 170, 20));
 
         jButton1.setContentAreaFilled(false);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 160, 50));
         getContentPane().add(fondo_pantalla, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1370, -1));
 
         volver.setBorder(null);
         volver.setContentAreaFilled(false);
-        volver.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        volver.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         volver.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 volverMouseClicked(evt);
@@ -1610,7 +1610,7 @@ Fuentes tipofuente;
 
         subir.setBorder(null);
         subir.setContentAreaFilled(false);
-        subir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        subir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         subir.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 subirMouseClicked(evt);
@@ -1625,7 +1625,7 @@ Fuentes tipofuente;
 
         bajar.setBorder(null);
         bajar.setContentAreaFilled(false);
-        bajar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        bajar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         bajar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 bajarMouseClicked(evt);

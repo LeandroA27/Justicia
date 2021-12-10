@@ -5,7 +5,7 @@
  */
 package Formularios;
 
-import com.sun.awt.AWTUtilities;
+import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -24,7 +24,7 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         setOpacity((float)0.9);
-        AWTUtilities.setWindowOpaque(this, false);
+        this.setBackground(new Color(0,0,0,0));
         setLocationRelativeTo(null);
         
         try {
